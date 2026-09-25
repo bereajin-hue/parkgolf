@@ -31,7 +31,7 @@
 │   └── js/main.js
 └── images/
     ├── hero/                1.jpg, 2.jpg
-    ├── destinations/        fuji-parkgolf/, oyama-parkgolf/, kawaguchiko/, onsen/, susono-hotel/
+    ├── destinations/        fuji-parkgolf/, oyama-parkgolf/, kawaguchiko/, onsen/, local-food/
     ├── reviews/              1.jpg ~ 8.jpg
     ├── guide/                1.jpg
     └── og-image.jpg
