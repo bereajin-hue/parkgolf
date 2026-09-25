@@ -1,6 +1,6 @@
-# 그리너투어 홈페이지
+# 행복 파크골프 투어 홈페이지
 
-일본 파크골프(시즈오카·후지산) 전문여행사 "그리너투어"의 원페이지형 정적 홈페이지입니다. 베를리너투어(https://github.com/bereajin-hue/berlinertour)와 동일한 레이아웃/컴포넌트 구조를 벤치마킹해 제작했습니다. GitHub → Cloudflare Pages 연동으로, `main`(또는 배포 브랜치)에 push하면 자동 배포됩니다. 별도 빌드 과정 없이 순수 HTML/CSS/JS로 구성되어 있습니다.
+일본 파크골프(시즈오카·후지산) 전문여행사 "행복 파크골프 투어"의 원페이지형 정적 홈페이지입니다. 베를리너투어(https://github.com/bereajin-hue/berlinertour)와 동일한 레이아웃/컴포넌트 구조를 벤치마킹해 제작했습니다. GitHub → Cloudflare Pages 연동으로, `main`(또는 배포 브랜치)에 push하면 자동 배포됩니다. 별도 빌드 과정 없이 순수 HTML/CSS/JS로 구성되어 있습니다.
 
 ## 상품 구성
 
@@ -77,12 +77,12 @@ python3 -m http.server 8000
 - Build command: 없음 (Framework preset: None)
 - Build output directory: `/` (저장소 루트)
 - 이 저장소를 Cloudflare Pages 프로젝트에 연결하고 배포 브랜치를 지정하면, 이후 해당 브랜치에 push할 때마다 자동으로 재배포됩니다.
-- 각 HTML의 `canonical`/`og:image` URL은 `https://greenertour.pages.dev/` 기준 placeholder이므로, 실제 배포 도메인이 정해지면 전체 파일에서 일괄 치환해 주세요.
+- 각 HTML의 `canonical`/`og:image` URL은 `https://parkgolf-7nd.pages.dev/` 기준 placeholder이므로, 실제 배포 도메인이 정해지면 전체 파일에서 일괄 치환해 주세요.
 
 ## 남은 작업 (게시 전 확인사항)
 
 - [ ] `images/` 폴더의 자리표시용 사진을 실제 코스/호텔/후기 사진으로 교체
 - [ ] `terms.html`, `privacy.html` 내용 법률 검토 (관광진흥법 표준약관 준수 여부 포함)
-- [ ] 연락처(전화/카카오톡)가 그리너투어 전용 채널인지, 베를리너투어와 공동 운영 채널인지 확정
+- [ ] 연락처(전화/카카오톡)가 행복 파크골프 투어 전용 채널인지, 베를리너투어와 공동 운영 채널인지 확정
 - [ ] 실제 배포 도메인 확정 후 canonical/OG URL 일괄 수정
 - [ ] 공급사(현지 랜드사) 견적 변동 시 판매가·마진율 재확인
